@@ -7,6 +7,6 @@ import vn.example.easyeat.pojo.MealList
 
 interface MealApi {
 
-    @GET()
+    @GET(value = "random.php")
     fun getRandomMeal():Call<MealList>
 }
